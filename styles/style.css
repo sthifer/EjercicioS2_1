@@ -1,0 +1,77 @@
+*{
+    margin: none;
+    padding: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid lightgrey;
+    padding: 20px 0px 30px 30px;
+}
+#login{
+    width: 200px;
+}
+#createaccount{
+    padding-top: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+#createaccount h2{
+    font-size: 2em;
+}
+.createaccount_social_button a{
+    color: white;
+    margin-left: 5px;
+}
+.createaccount_btn_google{
+    background-color: #4185F4;
+}
+.createaccount_btn_facebook{
+    background-color: #4268B2;
+    margin-left: 20px;
+}
+.createaccount_social{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.createaccount_social_button{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    line-height: 3em;
+}
+#password, #email{
+    height: 30px;
+    width: 400px;
+}
+#submit{
+    margin-top: 20px;
+    border-radius: 50px;
+    color: lightgrey;
+    border: 2px dashed lightgrey;
+    background-color: white;
+    padding: 20px;
+}
+footer{
+    display: flex;
+    border-top: 2px solid lightgrey;
+    margin-top: 20px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer ul > li{
+ margin-left: 20px;
+}
